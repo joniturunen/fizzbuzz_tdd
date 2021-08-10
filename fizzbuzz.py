@@ -8,11 +8,11 @@ def fizzbuzz(i):
         fizz = ((i)%3 == 0)
         buzz = ((i)%5 == 0)
         if fizz and buzz:
-            return "fizzbuzz"
+            return "FizzBuzz"
         elif fizz:
-            return "fizz"
+            return "Fizz"
         elif buzz:
-            return "buzz"
+            return "Buzz"
         else:
             return i
 
